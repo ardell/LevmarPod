@@ -15,7 +15,7 @@ This site provides GPL native ANSI C implementations of the Levenberg-Marquardt 
   # s.platform     = :ios
   # s.platform     = :ios, '5.0'
 
-  s.source = { :git => 'https://github.com/palmerc/LevmarPod.git',
+  s.source = { :git => 'https://github.com/ardell/LevmarPod.git',
                :tag => s.version.to_s }
 
   s.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${PROJECT_DIR}/"' }
