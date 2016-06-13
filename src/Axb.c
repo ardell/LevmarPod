@@ -47,6 +47,7 @@
 #define LM_REAL_EPSILON DBL_EPSILON
 #endif
 
+#include "Axb_core.c"
 #include "src/Axb_core.c"
 
 #undef LM_REAL
@@ -65,6 +66,7 @@
 #define LM_REAL_EPSILON FLT_EPSILON
 #endif
 
+#include "Axb_core.c"
 #include "src/Axb_core.c"
 
 #undef LM_REAL
