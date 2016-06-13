@@ -54,7 +54,7 @@
 #define __SUBCNST(x) x##F
 #define LM_CNST(x) __SUBCNST(x) // force substitution
 
-#include "src/lmbc_core.c" // read in core code
+#include "lmbc_core.c" // read in core code
 
 #undef LM_REAL
 #undef LM_PREFIX
@@ -76,7 +76,7 @@
 #define LM_REAL_EPSILON DBL_EPSILON
 #define LM_CNST(x) (x)
 
-#include "src/lmbc_core.c" // read in core code
+#include "lmbc_core.c" // read in core code
 
 #undef LM_REAL
 #undef LM_PREFIX

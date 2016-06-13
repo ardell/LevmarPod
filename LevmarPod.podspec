@@ -35,7 +35,7 @@ This site provides GPL native ANSI C implementations of the Levenberg-Marquardt 
     'src/misc.c',
     'src/misc.h',
   ]
-  s.preserve_paths = 'src/*_core.c'
+  # s.preserve_paths = 'src/*_core.c'
   s.header_dir = 'levmar/'
 
   s.framework  = 'Accelerate'

@@ -48,7 +48,6 @@
 #endif
 
 #include "Axb_core.c"
-#include "src/Axb_core.c"
 
 #undef LM_REAL
 #undef LM_PREFIX
@@ -67,7 +66,6 @@
 #endif
 
 #include "Axb_core.c"
-#include "src/Axb_core.c"
 
 #undef LM_REAL
 #undef LM_PREFIX

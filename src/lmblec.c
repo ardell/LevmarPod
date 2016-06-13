@@ -56,7 +56,7 @@
 #define __SUBCNST(x) x##F
 #define LM_CNST(x) __SUBCNST(x) // force substitution
 
-#include "src/lmblec_core.c" // read in core code
+#include "lmblec_core.c" // read in core code
 
 #undef LM_REAL
 #undef LM_PREFIX
@@ -75,7 +75,7 @@
 #define LM_REAL_MIN -DBL_MAX
 #define LM_CNST(x) (x)
 
-#include "src/lmblec_core.c" // read in core code
+#include "lmblec_core.c" // read in core code
 
 #undef LM_REAL
 #undef LM_PREFIX
