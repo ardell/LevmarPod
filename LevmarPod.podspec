@@ -20,8 +20,22 @@ This site provides GPL native ANSI C implementations of the Levenberg-Marquardt 
 
   s.xcconfig = { 'USER_HEADER_SEARCH_PATHS' => '"${PROJECT_DIR}/"' }
 
-  s.public_header_files = 'levmar.h'
-  s.source_files = 'src/*.{h,c}'
+  s.public_header_files = ['src/levmar.h', 'src/misc.h']
+  s.source_files = [
+    'src/Axb.c',
+    'src/compiler.h',
+    'src/expfit.c',
+    'src/levmar.h',
+    'src/lm.c',
+    'src/lm.h',
+    'src/lmbc.c',
+    'src/lmblec.c',
+    'src/lmbleic.c',
+    'src/lmlec.c',
+    'src/misc.c',
+    'src/misc.h',
+  ]
+  s.preserve_paths = 'src/*_core.c'
   s.header_dir = 'levmar/'
 
   s.framework  = 'Accelerate'
